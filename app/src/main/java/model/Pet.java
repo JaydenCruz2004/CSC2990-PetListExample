@@ -6,9 +6,14 @@ public class Pet {
     String name, breed;
     int age;
 
+
+
     public Pet(String name, String breed,int age) {
         this.age = age;
+        this.name = name;
+        this.breed = breed;
     }
+
 
     @Override
     public String toString() {
